@@ -25,6 +25,6 @@ const data = useLoaderData()
 export default Github;
 
 export const githubInfoLoader = async () => {
-  const response = await fetch("https://api.github.com/users/ATUL0270");
+  const response = await fetch("https://api.github.com/users/hiteshchoudhary");
   return response.json();
 };
